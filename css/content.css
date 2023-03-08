@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color:white;
+    font-size: 100px;
+    margin-left: 100px;
+}
+
+p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 14px;
+    margin-left: 110px;
+}
+
+button{
+    width: 180px;
+    color: #ebe1e1;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 2px solid rgb(237, 227, 227);
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 100px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    background: transparent;
+}
+
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(/img/pic-1.png);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    transition: transform 0.5s;
+   
+}
+
+h5{
+    color: #fff;
+}
+
+.card1{
+    background-image: url(/img/venezia.jpg);
+
+}
+.card2{
+    background-image: url(/img/canyon.avif);
+
+}
+.card3{
+    background-image: url(/img/pic-3.png);
+
+}
+.card4{
+    background-image: url(/img/eiffel.avif);
+
+}
+.card5{
+    background-image: url(/img/aurora.jpg);
+
+}
+.card6{
+    background-image: url(/img/niagara.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+
+}
