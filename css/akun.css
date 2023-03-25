@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    
+} 
+
+.nav-bar {
+    top: 0;
+    left: 0;
+    background-color: hsl(0, 0%, 95%);
+    position: fixed;
+    display: flex;
+    padding: 0.5rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0px 1px 10px #999999;
+    z-index: 1;
+  }
+  
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #FFB26B;
+    box-shadow: 0px 1px 10px #999999;
+    z-index: 100;
+
+}
+
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav__links{
+    list-style: none;
+    padding-left: 50px;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 30px;
+    margin-right: auto;
+    font-size: medium;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #FF7B54;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #FF6E31;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #FF6E31(0,136,169,0.8);
+}
+
+
+.daftar{
+    top: 33%;
+    left: 8%;
+    position: absolute;
+}
+
+.home{
+    padding: 140px 180px 0px 180px;
+}
+
+.sales-boxes {
+    background: white;
+    padding: 3% 4% 4% 4%;
+    border-radius: 12px;
+    box-shadow: 0 1px 13px rgba(0, 0, 0, 0.2);
+    margin-bottom: 7%;
+}
+.naik{
+    display: inline-block;
+}
+
+#nama, #email, #nomor{
+    display: block;
+}
+.naik input{
+    height: 45px;
+    width: 400px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.ikanan{
+    display: inline-block;
+}
+.pr{   
+    background-color: white;
+    padding: 20px 80px 20px 80px;
+    border-radius: 12px;
+    text-align: justify;
+    box-shadow: 0 1px 13px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5.5%;
+}
+.pr h1{
+    padding: 25px 0px 15px 0px;
+}
+.list p{
+    padding-top: 10px;
+}
+footer{
+    background-color: rgb(225, 225, 225);
+}
+footer .foot{
+    padding: 25px 0px 25px 80px;
+}

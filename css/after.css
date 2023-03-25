@@ -1,0 +1,11 @@
+*{
+    color: black;
+    list-style: none;
+
+}
+
+.container{
+    align-items: center;
+
+    box-shadow: 3px 2px 2px 3px;
+}

@@ -10,10 +10,11 @@ body{
   justify-content: center;
   align-items: center;
   background: linear-gradient(135deg, #71b7e6, #201f20);
+  position: fixed;
 }
 
 .conta{
-    width: 60%;
+    width: 50%;
     justify-content: center;
     align-items: center;
     background: rgb(222, 222, 222);
@@ -156,7 +157,6 @@ form .user-details .input-box{
   }
   .content form .user-details{
     max-height: 300px;
-    overflow-y: scroll;
   }
   .user-details::-webkit-scrollbar{
     width: 5px;
